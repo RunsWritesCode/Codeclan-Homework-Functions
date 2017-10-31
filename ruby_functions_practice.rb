@@ -19,4 +19,10 @@ def multiply(number_1, number_2)
   number_1 = 4
   number_2 = 2
   return number_1 * number_2
-  end
+end
+
+def divide(number_1, number_2)
+  number_1 = 10
+  number_2 = 2
+  return number_1 / number_2
+end
