@@ -71,3 +71,7 @@ def number_to_full_month_name(number)
   def volume_of_sphere(radius_of_sphere)
     return (4.0/3) * 3.14 * (radius_of_sphere ** 3)
   end
+
+  def fahrenheit_to_celsius(fahrenheit)
+    return (fahrenheit - 32) * 5/9
+  end
