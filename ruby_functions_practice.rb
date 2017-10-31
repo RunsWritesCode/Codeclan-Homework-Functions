@@ -61,3 +61,7 @@ def number_to_full_month_name(number)
       return "Sep"
     end
   end
+
+  def volume_of_cube(length_of_side)
+    return length_of_side * length_of_side * length_of_side
+  end
