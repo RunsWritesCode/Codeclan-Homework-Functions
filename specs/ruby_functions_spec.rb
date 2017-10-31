@@ -74,7 +74,13 @@ class Functions_Practice < MiniTest::Test
     result = volume_of_cube(length_of_side)
     assert_equal( 64, result)
   end
-#
+
+  def test_volume_of_sphere()
+    radius_of_sphere = 4
+    result = volume_of_sphere(radius_of_sphere)
+    assert_equal( 267.94666666666666, result)
+  end
+
 #   #Given the radius of a sphere calculate the volume
 #   def test_volume_of_sphere()
 #     #add test code here

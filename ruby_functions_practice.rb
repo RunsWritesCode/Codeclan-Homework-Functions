@@ -65,3 +65,9 @@ def number_to_full_month_name(number)
   def volume_of_cube(length_of_side)
     return length_of_side * length_of_side * length_of_side
   end
+
+
+
+  def volume_of_sphere(radius_of_sphere)
+    return (4.0/3) * 3.14 * (radius_of_sphere ** 3)
+  end
